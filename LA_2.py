@@ -56,19 +56,59 @@ output the result to the user
 end
 
 """""
-import math 
-def calculate(sheet):
-    answer = sheet / 5
-    rounded = round(answer)
-    print("sheet is : ", sheet)
-    print("the answer is: ", answer)
-    print("rounded is: ", math.ceil(rounded))
-    print("===================")
-    return rounded
+# import math 
+# def calculate(sheet):
+#     answer = sheet / 5
+#     rounded = round(answer)
+#     print("sheet is : ", sheet)
+#     print("the answer is: ", answer)
+#     print("rounded is: ", math.ceil(rounded))
+#     print("===================")
+#     return rounded
 
-output = calculate(16)
+# output = calculate(16)
 
-print("the return statement is: ", output)
+# print("the return statement is: ", output)
+
+"""""
+Start by getting the street number
+
+If the street number is even, display eastbound
+
+if it is not even, display westbound
+
+finish program 
+
+"""""
+# street = 13
+
+# print("Divide: ", street / 2)
+# print("Modulus", street % 2 == 0)
+
+# if street % 2 == 0:
+#     print("Eastbound")
+# else:
+#     print("Westbound")
+
+# if number is even:
+#     print("Eastbound")
+# else:
+#     print("Westbound")
+
+
+def calculate_street(street):
+    street = 1333
+    print("Divide: ", street / 2)
+    print("Modulus: ", street % 2 == 0)
+    if (street % 2) == 0:
+        print("Eastbound")
+    else:
+        print("Westbound")
+     
+
+
+
+
 
 
 
